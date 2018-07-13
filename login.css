@@ -1,0 +1,32 @@
+.contenedor{
+	width: 900px;
+	margin: 20px auto; /* si queremos centrar bloque como espaciador de margenes */
+	background: #3f51b5;
+	padding: 20px;
+}
+
+h1{
+	text-align: center; /* funciona para los inline-blocks*/
+	font-weight: bold;
+	font-size:42px;
+	font-family: Arial;
+	color: #ffffff;
+}
+input[type="text"]{
+	display: block;
+	margin: 10px auto;  /* funciona para los block */
+	padding: 5px;
+	font-size: 16px;
+	font-family: Arial;
+	color: #212121;
+}
+footer {
+   text-align: center;
+}
+input[type="button"]{
+	font-size:14px;
+	font-family: Arial;
+	border-style: none;
+	color: #ffffff;
+	background: #ff9800;
+}

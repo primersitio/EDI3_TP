@@ -1,0 +1,22 @@
+.contenedor{
+	width: 600px;
+	margin: 0px auto; /* si queremos centrar 
+	bloque como espaciador de margenes */
+	border: 1px solid black;
+
+
+}
+
+h1{
+	display: inline-block;
+}
+header{
+	text-align: center; /* funciona para los inline-blocks*/
+}
+input[type="text"]{
+	display: block;
+	margin: auto;  /* funciona para los block */
+}
+footer {
+   text-align: center;
+}

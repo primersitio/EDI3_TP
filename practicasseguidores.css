@@ -1,0 +1,101 @@
+.contenedor{
+	width: 900px;
+	margin: 20px auto;
+	padding: 20px;
+	background: #3f51b5;
+}
+h1{
+	text-align: center;
+	font-size: 42px;
+	font-family: Arial;
+	color: #ffffff;
+	font-weight: bold;
+}
+aside{
+	display: inline-block;
+	vertical-align: top;
+	width: 29%;
+	border: 1px solid black;
+	background: #c5cae9;
+	padding: 5px;
+}
+aside header h3{
+	border-bottom: 1px solid black;
+	text-align: left;
+	padding: 5px;
+}
+
+header{
+	text-align: center;
+}
+.prueba{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #757575;
+}
+section {
+	display: inline-block; 
+	width: 69%;
+}
+
+article{
+	border: 1px solid black;
+	display: inline-block;
+	margin: 5px;
+	margin-top: 0px;
+	padding: 10px;
+	box-sizing: border-box;
+	width: 31%;
+	text-align: left;
+	background: #c5cae9;
+}
+
+/*.MenuPrincipal{
+	border: 1px solid black;
+	box-sizing: border-box;
+}*/
+.mainMenu{
+	display: block;
+	margin: 10px 5px;
+	font-size: 20px;
+	background: #303f9f;
+	padding: 0px;
+	list-style: none;    /* Saca los puntos*/
+	box-sizing: border-box;  /* No se modifica el tamaño de la caja */
+	list-style: none; /* Saca los puntos*/
+}
+
+.Ulmenu{
+	list-style: none; /* Saca los puntos*/
+}
+
+.Ulmenu li{
+    display: inline-block;
+	margin: 0px 10px; 
+	color: #FFFFFF;
+}
+
+.ul-aside{
+	list-style: none;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.ul-article{
+	list-style: none;
+	text-align: left;
+/*	border: 1px solid black; */
+	
+	margin: 0px;
+	padding: 15px;
+	background: #FFFFFF;
+}
+
+.cab1{
+	font-size: 19px;
+	font-family: Arial;
+	color: #ffffff;
+	padding: 0px 5px;
+	background: #757575;
+	margin:0px 5px;
+}
